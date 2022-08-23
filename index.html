@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap Link -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- CSS Style Link -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Age Calculator by me</title>
+
+</head>
+
+<body>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 offset-md-3">
+                    <div class="card mt-5">
+                        <div class="card-body">
+                            <h2 class="card-title text-center">Age Calculator</h2>
+                            <div class="row justify-content-center">
+                                <div class="col-7 mt-4">
+                                    <!-- Date -->
+                                    <div class="form-group">
+                                        <select name="" id="date_section" class="form-control">
+                                            <option value="" selected disabled>Select Date</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                            <option value="7">7</option>
+                                            <option value="8">8</option>
+                                            <option value="9">9</option>
+                                            <option value="10">10</option>
+                                            <option value="11">11</option>
+                                            <option value="12">12</option>
+                                            <option value="13">13</option>
+                                            <option value="14">14</option>
+                                            <option value="15">15</option>
+                                            <option value="16">16</option>
+                                            <option value="17">17</option>
+                                            <option value="18">18</option>
+                                            <option value="19">19</option>
+                                            <option value="20">20</option>
+                                            <option value="21">21</option>
+                                            <option value="22">22</option>
+                                            <option value="23">23</option>
+                                            <option value="24">24</option>
+                                            <option value="25">25</option>
+                                            <option value="26">26</option>
+                                            <option value="27">27</option>
+                                            <option value="28">28</option>
+                                            <option value="29">29</option>
+                                            <option value="30">30</option>
+                                            <option value="31">31</option>
+                                        </select>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="row justify-content-center">
+                                <div class="col-7 mt-3">
+                                    <!-- Month -->
+                                    <div class="form-group">
+                                        <select name="" id="month_section" class="form-control">
+                                            <option value="" selected disabled>Select Month</option>
+                                            <option value="january">January</option>
+                                            <option value="february">February</option>
+                                            <option value="march">March</option>
+                                            <option value="april">April</option>
+                                            <option value="may">May</option>
+                                            <option value="june">June</option>
+                                            <option value="july">July</option>
+                                            <option value="august">August</option>
+                                            <option value="september">September</option>
+                                            <option value="october">October</option>
+                                            <option value="november">November</option>
+                                            <option value="december">December</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row justify-content-center">
+                                <div class="col-7 mt-3">
+                                    <!-- Year -->
+                                    <div class="form-group">
+                                        <input type="text" id="year_section" placeholder="Set Year" class="form-control">
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="container text-center mt-4">
+                                <button onclick="ageCalculator()"
+                                    class="btn btn-outline-warning btn-sm">Calculate</button>
+                            </div>
+                            <div class="row justify-content-center">
+                                <div class="col-7 mt-4 mb-3">
+                                    <div class="form-group">
+                                        <input required placeholder="You are days old" type="text" id="screen" name="screen" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="js/index.js"></script>
+
+</html>
